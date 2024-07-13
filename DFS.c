@@ -18,7 +18,7 @@ void DFS(int i)
     for (int j = 0; j < 5; j++)
     {
         if(A[i][j]==1 && !visited[j])
-	{
+	    {
             DFS(j);
         }
     }
